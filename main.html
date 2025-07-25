@@ -1,39 +1,57 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Semantic Table and Media List</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-   <table>
-<thead>
-<tr><th>Roll numbers</th><th>Names</th></tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td><td>Ary</td>
-</tr>
-<td>2</td><td>Ari</td>
-<tr>
-<td>3</td><td>Arey</td>
+  <table>
+    <thead>
+      <tr>
+        <th>Roll numbers</th>
+        <th>Names</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ary</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ari</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Arey</td>
+      </tr>
+    </tbody>
+  </table>
 
-</tr>
-<tr>
+  <!-- Required heading between table and list -->
+  <h2>List of medias</h2>
 
-</tr>
-</tbody>
-</table>
-<ol>
-<li><img src="https://picsum.photos/id/123/200/300"></li>
-<li><video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"</li>
-<li><audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"></li>
-</ol>
-    <script type="text/javascript" src="./script.js">
-</script>
+  <ol>
+    <li>
+      <img src="https://picsum.photos/id/123/200/300" alt="Sample image">
+    </li>
+    <li>
+      <video controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </li>
+    <li>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </li>
+  </ol>
 
+  <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
